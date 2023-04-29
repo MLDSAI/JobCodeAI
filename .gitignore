@@ -1,0 +1,15 @@
+# Envirionment
+.env
+
+# Python
+__pycache__
+cache
+*.egg-info
+.venv
+*~
+
+# Vim
+*.sw[m-p]
+
+# data
+*.db

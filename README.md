@@ -33,3 +33,21 @@ results
 ### Data
 
 - Jobs: https://careers.marriott.com/
+
+## Development
+
+### Setup
+
+```
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install -e .
+alembic upgrade head
+```
+
+### Generate migration (after editing a model)
+
+```
+alembic revision --autogenerate -m "<msg>"
+```
