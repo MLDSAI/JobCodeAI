@@ -2,15 +2,24 @@
 
 ## Problem
 
-JobCodeAI ia an HR-tech solution that solves the following problem:
+JobCodeAI is an HR-tech solution that solves the following problem:
 
-> Can’t find the right list of people to contact for training or comms because job codes are too unique
+> HR executives can’t find the right list of people to contact for training or
+> comms because job codes are too unique
 
 ## Solution
 
-An HR executive types in the attributes of the types of people they want to find, and we output a list.
+A web application in which:
 
-Behind the scenes we have a list of job codes and their descriptions. When the user types in attributes of the people he wants to find, JobCodeAI produces a list of matching jobs.
+1. An HR executive types in a natural language description of the types of
+people they want to find
+2. A list of matching jobs (and people) is produced
+
+## Approach
+
+Behind the scenes we have a list of job codes and their descriptions. When the
+user types in attributes of the people he wants to find, JobCodeAI produces
+a list of matching jobs.
 
 ### Tech
 
