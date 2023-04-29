@@ -46,6 +46,12 @@ pip install -e .
 alembic upgrade head
 ```
 
+### Run
+
+```
+python jobcodeai/app.py
+```
+
 ### Generate migration (after editing a model)
 
 ```
