@@ -17,16 +17,18 @@ people they want to find
 
 ## Approach
 
-Behind the scenes we have a list of job codes and their descriptions. When the
-user types in attributes of the people he wants to find, JobCodeAI produces
-a list of matching jobs.
+- scrape jobs from career websites
+- store embeddings a vector database
+- display a web GUI for the user to enter natural language queries and view
+results
 
 ### Tech
 
 - Scrapy/BeautifulSoup for scraping and parsing job descriptions
-- NiceGUI for getting input and displayout output to/from the user
-- SQLAlchemy and Alembic for interacting with data
-- OpenAI for generating text completions
+- NiceGUI for getting input and displaying output to/from the user
+- SQLAlchemy and Alembic for storing and retrieving scalar data
+- Pinecone for storing and retrieving embeddings
+- OpenAI for generating embeddings and text completions
 
 ### Data
 
