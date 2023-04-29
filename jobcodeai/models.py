@@ -9,3 +9,4 @@ class Job(Base):
     id = sa.Column(sa.Integer, primary_key=True)
     html = sa.Column(sa.String)
     url = sa.Column(sa.String)
+    text = sa.Column(sa.String)
