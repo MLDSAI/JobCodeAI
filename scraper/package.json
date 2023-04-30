@@ -1,0 +1,37 @@
+{
+  "name": "job-code-ai-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1368.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "jsdom-lambda": "^20.0.1",
+    "luxon": "^3.3.0",
+    "mysql2": "^3.2.4",
+    "puppeteer": "^19.11.1",
+    "typeorm": "^0.3.15"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^3.29.0",
+    "@types/aws-lambda": "^8.10.114",
+    "@types/axios": "^0.14.0",
+    "@types/jsdom": "^21.1.1",
+    "@types/luxon": "^3.3.0",
+    "@types/node": "^18.16.3",
+    "@types/puppeteer": "^7.0.4",
+    "@types/serverless": "^3.12.11",
+    "esbuild": "^0.17.18",
+    "json-schema-to-ts": "^2.8.0",
+    "serverless-esbuild": "^1.43.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
