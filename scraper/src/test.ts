@@ -6,7 +6,6 @@ import { dataSource } from "@libs/datasource.config";
 
 const pageString = process.argv[process.argv.length - 1];
 const page = Number.parseInt(pageString);
-console.log("page number to process: ", page);
 
 const parseService = new MarriottService();
 const blahService = new ParseJobPageService();
@@ -27,3 +26,4 @@ parseService.getCareersPage(page).then(async (p) => {
         console.log("id: ", newJob?.id);
     }));
 });
+console.log("page number to process: ", page);
