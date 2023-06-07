@@ -1,10 +1,8 @@
-import unittest
+import pytest
+from jobcodeai import ipynb_runner
 
-class TestJobCodeAI(unittest.TestCase):
+def test_ipynb_files():
+    assert ipynb_runner.run() == True, "The ipynb files did not run successfully"
 
-    def test_add(self):
-        # Test case for the add functionality
-        pass  # Replace with your own test code
-
-if __name__ == '__main__':
-    unittest.main()
+if __name__ == "__main__":
+    pytest.main()
